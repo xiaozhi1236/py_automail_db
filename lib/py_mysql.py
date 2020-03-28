@@ -1,5 +1,4 @@
 import pymysql
-
 class DBHelper:
     # 构造函数
     def __init__(self, host='localhost',port=3306, user='test',pwd='test', db='test'):
